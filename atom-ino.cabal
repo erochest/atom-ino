@@ -15,7 +15,9 @@ build-type:          Simple
 cabal-version:       >=1.8
 
 executable atom-ino
-  -- main-is:             
+  main-is:             AtomIno.hs
   -- other-modules:       
   build-depends:       base ==4.5.*
+                     , atom
+                     , directory
   hs-source-dirs:      src

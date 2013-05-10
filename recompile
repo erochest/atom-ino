@@ -1,0 +1,10 @@
+#!/bin/sh
+
+ino clean
+cabal-dev build
+cd src
+../dist/build/atom-ino/atom-ino
+cd ..
+ino build
+ino upload
+
